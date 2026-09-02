@@ -65,9 +65,26 @@ export function Contact() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
+
+    const subject = 'New Project Inquiry - Bros Annotation';
+    const body = [
+      'New Project Inquiry',
+      '',
+      `Name: ${form.fullName}`,
+      `Business Email: ${form.businessEmail}`,
+      `Company: ${form.company}`,
+      `Service Required: ${form.service}`,
+      '',
+      'Project Details:',
+      form.details,
+    ].join('\n');
+
+    const mailtoLink = `mailto:brosannotation@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+
     setSubmitted(true);
     setForm({ fullName: '', businessEmail: '', company: '', service: '', details: '' });
-    setTimeout(() => setSubmitted(false), 6000);
+    setTimeout(() => setSubmitted(false), 8000);
   };
 
   return (
@@ -140,7 +157,7 @@ export function Contact() {
                 <div className="flex items-center gap-3 p-4 rounded-xl bg-green-500/10 border border-green-500/30">
                   <CheckCircle2 className="text-green-400 shrink-0" size={20} />
                   <p className="text-sm text-green-300">
-                    Thank you! Your inquiry has been received. Our team will get back to you soon.
+                    Your inquiry is ready to send. Please complete the email from your email application.
                   </p>
                 </div>
               )}
