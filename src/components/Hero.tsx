@@ -42,13 +42,13 @@ export function Hero() {
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] text-white mb-6">
             AI Data Annotation
             <br />
-            <span className="text-gradient">& LLM Evaluation</span>
+            <span className="text-gradient">for Smarter AI Models</span>
           </h1>
 
           <p className="text-lg text-text-muted leading-relaxed mb-8 max-w-lg">
-            Bros Annotation provides high-quality human data, annotation,
-            evaluation, and feedback services that help AI teams build smarter,
-            safer, and more reliable models.
+            Bros Annotation delivers high-quality image and video annotation,
+            LLM evaluation, RLHF, AI safety, and human feedback services to help
+            AI teams build smarter, safer, and more reliable models.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-10">
