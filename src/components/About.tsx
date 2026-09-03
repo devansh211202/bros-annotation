@@ -27,7 +27,7 @@ export function About() {
             About Us
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-5">
-            Helping AI Teams Build Better Models
+            About Bros Annotation: AI Data & Human Feedback
           </h2>
           <p className="text-lg text-text-muted leading-relaxed">
             Bros Annotation bridges the gap between AI models and human
