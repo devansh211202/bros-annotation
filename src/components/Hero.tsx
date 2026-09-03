@@ -40,9 +40,9 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] text-white mb-6">
-            Human Intelligence
+            AI Data Annotation
             <br />
-            <span className="text-gradient">Powering Better AI</span>
+            <span className="text-gradient">& LLM Evaluation</span>
           </h1>
 
           <p className="text-lg text-text-muted leading-relaxed mb-8 max-w-lg">
