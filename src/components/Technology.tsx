@@ -37,11 +37,12 @@ export function Technology() {
             Technology
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            Tools &amp; Expertise
+            AI Data Annotation Technology & Expertise
           </h2>
           <p className="text-text-muted">
-            A blend of professional annotation platforms, ML frameworks, and
-            human expertise that powers our workflows.
+            We use professional annotation platforms, machine learning technologies,
+            and human-in-the-loop workflows to deliver accurate, scalable AI training
+            and evaluation data.
           </p>
         </div>
 
