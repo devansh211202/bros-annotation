@@ -6,6 +6,14 @@ const capabilities = [
   'Object Tracking',
   'Image Classification',
   'Video Annotation',
+   'Text Annotation',
+  'NLP Annotation',
+  'LLM Evaluation',
+  'RLHF',
+  'AI Safety',
+  'Human Preference Ranking',
+  'Multimodal Annotation',
+  'Data Quality Assurance',
 ];
 
 export function AnnotationExpertise() {
@@ -21,9 +29,10 @@ export function AnnotationExpertise() {
             AI Data Annotation Expertise & Tools
           </h2>
           <p className="text-text-muted leading-relaxed mb-8">
-            Our annotation workflows can leverage professional annotation
-            platforms such as CVAT to deliver structured, accurate, and scalable
-            datasets for computer vision and AI applications.
+            Bros Annotation supports end-to-end AI data annotation and evaluation
+            workflows, including CVAT-based image and video annotation, bounding
+            boxes, polygons, segmentation, object tracking, NLP annotation, LLM
+            evaluation, RLHF, AI safety, and human preference ranking.
           </p>
 
           <div className="flex flex-wrap gap-2.5">
