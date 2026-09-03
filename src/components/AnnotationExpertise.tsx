@@ -18,7 +18,7 @@ export function AnnotationExpertise() {
             Annotation Expertise
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-5">
-            Precision Annotation with Modern Tools
+            AI Data Annotation Expertise & Tools
           </h2>
           <p className="text-text-muted leading-relaxed mb-8">
             Our annotation workflows can leverage professional annotation
