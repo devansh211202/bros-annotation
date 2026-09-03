@@ -95,10 +95,11 @@ export function Contact() {
             Contact
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            Let's Build Better AI Together
+            Start Your AI Data Annotation Project
           </h2>
           <p className="text-text-muted">
-            Tell us what you're building and how we can help.
+            Tell us about your AI data annotation, LLM evaluation, or AI training
+            project and we'll discuss your requirements, timeline, and next steps.
           </p>
         </div>
 
