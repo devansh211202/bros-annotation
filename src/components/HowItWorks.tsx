@@ -30,7 +30,7 @@ export function HowItWorks() {
             Process
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            How It Works
+            Our AI Data Annotation & Evaluation Process
           </h2>
           <p className="text-text-muted">
             A structured four-step process that turns human expertise into
