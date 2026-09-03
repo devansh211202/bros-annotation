@@ -42,11 +42,11 @@ export function WhyChooseUs() {
             Why Us
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            Why Choose Bros Annotation?
+            Why Choose Bros Annotation for AI Data Annotation?
           </h2>
           <p className="text-text-muted">
-            We combine human expertise with structured workflows to deliver data
-            you can trust.
+            We combine human expertise, rigorous quality assurance, and structured
+            workflows to deliver accurate, reliable AI training data you can trust.
           </p>
         </div>
 
