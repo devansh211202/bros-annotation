@@ -40,8 +40,8 @@ export function Services() {
            AI Data Annotation & LLM Evaluation Services
           </h2>
           <p className="text-text-muted">
-            A full suite of annotation and evaluation services covering every
-            modality and stage of the AI development pipeline.
+            End-to-end AI data annotation and evaluation services for image, video,
+            text, NLP, LLM, multimodal, and AI safety workflows.
           </p>
         </div>
 
