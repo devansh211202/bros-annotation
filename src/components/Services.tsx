@@ -36,8 +36,8 @@ export function Services() {
           <div className="badge text-accent-soft border-accent/30 mb-4">
             Services
           </div>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
-            What We Do
+         <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-4">
+           AI Data Annotation & LLM Evaluation Services
           </h2>
           <p className="text-text-muted">
             A full suite of annotation and evaluation services covering every
@@ -54,9 +54,9 @@ export function Services() {
               <div className="w-11 h-11 rounded-xl bg-surface-2 border border-border flex items-center justify-center transition-colors group-hover:border-primary/30">
                 <service.icon className="text-primary-soft" size={20} />
               </div>
-              <span className="text-sm font-medium text-text leading-snug">
+              <h3 className="text-sm font-medium text-text leading-snug">
                 {service.label}
-              </span>
+              </h3>
             </div>
           ))}
         </div>
